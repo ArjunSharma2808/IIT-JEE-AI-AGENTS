@@ -1,0 +1,34 @@
+
+
+
+**Project Requirements**
+
+To run the JEE AI Agent project, ensure you have the following prerequisites installed and configured:
+
+ **1. Python Environment**
+- Python 3.7 or higher
+
+ **2. Libraries and Dependencies**
+- **transformers**: For working with pre-trained language models.
+- **torch**: Required for running GPT models.
+- **pandas**: For handling datasets and data manipulation.
+- **numpy**: For numerical operations.
+- **IPython**: For running and displaying notebook-related commands.
+- **Jupyter Notebook**: For running the provided `.ipynb` file.
+
+These can be installed using pip:
+```bash
+pip install transformers torch pandas numpy ipython jupyter
+```
+
+ **3. Hardware Requirements**
+- **GPU (optional but recommended)**: For faster processing, especially when generating large sets of questions.
+- Sufficient memory to handle model operations (minimum 8GB of RAM is recommended).
+
+ **4. Dataset**
+- A dataset of existing IIT-JEE questions (or similar) for fine-tuning and validation. This can be custom-built or sourced from educational repositories.
+
+**5. API Keys**
+- If using GPT-4 or any other AI models via API (e.g., OpenAI), ensure you have valid API keys set up.
+
+---
